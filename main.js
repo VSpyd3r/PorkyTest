@@ -1,6 +1,6 @@
 const containerEl = document.querySelector(".container");
 
-const careers = ["YouTuber", "Web Developer", "Freelancer", "3D Modeler", "Blender user", "old guy"];
+const careers = ["YouTuber", "Web Developer", "Freelancer", "Instructor"];
 
 let careerIndex = 0;
 
@@ -24,5 +24,5 @@ function updateText() {
   if (careerIndex === careers.length) {
     careerIndex = 0;
   }
-  setTimeout(updateText, 200);
+  setTimeout(updateText, 400);
 }
